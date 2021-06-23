@@ -1,0 +1,29 @@
+{
+    "dateFormat": "HH:mm:ss",
+    "acceptGifts": false,
+    "declineBanned": true,
+    "acceptEscrow": false,
+    "currencyExchange": {
+        "metal->keys": false,
+        "keys->metal": false
+    },
+    "buyOrders": true,
+    "confirmations": "all",
+    "logs": {
+        "console": {
+            "level": "verbose"
+        },
+        "file": {
+            "filename": "automatic.log",
+            "disabled": false,
+            "level": "info"
+        },
+        "trade": {
+            "filename": "automatic.trade.log",
+            "disabled": false
+        }
+    },
+    "owners": [
+        "<steamid64s>"
+    ]
+}
